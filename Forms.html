@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Forms </title>
+    <link rel="stylesheet" href="Main.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Amara sesay">
+    <meta name="description" content="this is a html forms page">
+    <meta name="keywords" content="html,css,forms,input,button,select,textarea">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="searchpage.html" type="image/x-icon">
+</head>
+<body>
+    <img src="ssamara.jpg" alt="profile picture" width="200" height="200">
+    <h1>completing the following the details</h1>
+    <hr>
+    <p>
+        <fieldset>
+            <legend>Personal information</legend>
+            <!--creating forms in html to collect detaisl form the user-->
+            <form  action="action_page.php" method="post" target="_self" accept-charset="UTF-8"
+                enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
+
+                name: <br>
+            <input type="text" name="UserName" placeholder="Name" required><br>
+                Email: <br>
+            <input type="email" name="email" placeholder="email" required><br>
+                Number: <br>
+            <input type="number" name="number" placeholder="phone" required><br>
+            Password: <br>
+            <input type="password" name="UserPasswoard" placeholder="password" required><br>
+                <br><br>
+            <!--this is radio button -->
+            <input type="radio" name="genger" value="Male" checked > Male <br>
+            <input type="radio" name="genger" value="Fimale" checked > Fimale <br>
+            <input type="radio" name="genger" value="Other" checked> Other <br>
+                <br><br>
+            <!--this is a submit button-->
+            <input type="submit" value="Submit" required>
+
+            <!--this is a reset button-->
+            <input type="reset" value="reset">
+            <br><br><br><br>
+            <!--this is the select element (drop down list)-->
+            <p>choose the country that you come form africa</p>
+            <select name="Country" id="" >
+                <option value="Egyot">Egyot</option>
+                <option value="Ethiopia">Ethiopia</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Somalia">Somalia</option>
+                <option value="Sudan">Sudan</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Sierr Leone">Sierra leone</option>
+                <option value="Gambia">Gambia</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Liberia">Liberia</option>    
+                <option value="Togo">Togo</option>
+                <option value="Benin">Benin</option>
+                <option value="Mali">Mali</option>
+                <option value="Chad">Chad</option>
+                <option value="Niger">Niger</option>
+                <option value="Cameroon">Cameroon</option>
+                <option value="Burkina Faso">Burkina Faso</option>
+            </select>
+
+            <!--this is a textarea element-->
+            <br><br>
+            <p>Giving feedback</p>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="write your message here"></textarea>
+
+            <!--this is button element-->
+            <br><br>
+            <h2>buttoin to hit </h2>
+            <button type="button" onclick="alert('Hello world')">Click Me!</button>
+
+            <br><br><br>
+        </form>
+
+        <form action="action_page.php" method="post">
+            <!--this is a detailst element-->
+            <input list="browsers">
+            <details id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+
+            </details>
+        </form>
+        </fieldset>
+    </p>
+    </form>
+</body>
+</html>

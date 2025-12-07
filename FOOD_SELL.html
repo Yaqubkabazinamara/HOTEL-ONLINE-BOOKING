@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 18px;
+  color: green;
+  font-weight: bold;
+}
+nav{
+            
+            margin: 0 35px;
+            display: flex;
+            flex-direction: row;
+
+            color: #111a21;
+            font-weight: bold;
+            gap: 10rem;
+            justify-content: flex-end;
+            align-items: center;
+     }
+      a {
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            font-size:20px ;
+        }
+
+</style>
+</head>
+
+<body>
+     <nav>
+        <a href="HOMEPAGE.html">🏠Home</a>
+        <a href="LOGIN.html">Login</a> 
+        <a href="OTHERS_STUFF.html">Rooms</a>
+        <a href="FOOD_SELL.html">🍔Buy food</a>
+        <a href="Workers.html">👥Wokers</a>
+        <a href="Author_Developer.html">ℹ️About</a>
+    </nav>
+
+<h2 style="text-align:center; margin-top:20px;">Hotel Food Menu</h2>
+    <p>
+      <h2 style="text-align:center; margin-top:20px;">
+        Place your order now! By just selecting to the diffrents Types of foods</h2>
+    </p>
+<div class="menu-grid">
+
+  <!-- Breakfast Items -->
+  <div class="card">
+    <img src="food.jpg/Food1.png">
+    
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html" >Omelette</a></button></h3>
+    <p>le 3.50</p>
+  </div>
+
+  <div class="card">
+    <img src="food.jpg/food2.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html">Pancakes</a></button></h3>
+    <p>le 4.00 </p>
+  </div>
+
+  <div class="card">
+    <img src="food.jpg/foo3.png">
+    <h3> <button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html">Fruit Bowl</a></button></h3>
+    <p> le 3.00</p>
+  </div>
+
+  <!-- Main Meals -->
+  <div class="card">
+    <img src="food.jpg/fod4.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html">Chicken Curry</a></button> </h3>
+    <p> le 6.00</p>
+  </div>
+
+  <div class="card">
+    <img src="food.jpg/food5.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html">Fried Rice</a></button> </h3>
+    <p> le 5.00</a></p>
+  </div>
+
+  <div class="card">
+    <img src="food.jpg/food6.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html">Grilled Chicken</a></button> </h3>
+    <p>le 7.50</p>
+  </div>
+
+  <!-- Fast Foods -->
+  <div class="card">
+    <img src="food.jpg/food7.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"> <a href="FOOD_SELL.html">Burger</a></button></h3>
+    <p>le 4.50</p>
+  </div>
+
+  <div class="card">
+    <img src="food.jpg/food8.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html"> Shawarma</a></button></h3>
+    <p>le 5.00</p>
+  </div>
+
+  <div class="card">
+    <img src="food.jpg/food9.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html">Chicken Wings</a></button></h3>
+    <p>le 6.50 </p>
+  </div>
+
+  <!-- Snacks -->
+  <div class="card">
+    <img src="food.jpg/food10.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html"> Samosa</a></button></h3>
+    <p>le 1.50</p>
+  </div>
+
+  <div class="card">
+    <img src="food.jpg/food11.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html">Cutlet</a></button></h3>
+    <p>le 1.80</p>
+  </div>
+
+  <div class="card">
+    <img src="food.jpg/food12.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html">Pastry</a></button></h3>
+    <p>le 2.00</p>
+  </div>
+
+  <!-- Desserts -->
+  <div class="card">
+    <img src="food.jpg/food13.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html">Ice Cream</a></button></h3>
+    <p>le 2.50</p>
+  </div>
+
+  <div class="card">
+    <img src="food.jpg/food14.png">
+    <h3>Cake Slice</h3>
+    <p><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html">le 3.00</a></button></p>
+  </div>
+
+  <div class="card">
+    <img src="food.jpg/food15.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html">Pudding</a></button></h3>
+    <p>le 2.50</p>
+  </div>
+
+  <!-- Drinks -->
+  <div class="card">
+    <img src="food.jpg/food16.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html">Milkshake</a></button></h3>
+    <p>le 3.50</p>
+  </div>
+
+  <div class="card">
+    <img src="food.jpg/food17.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html">Fruit Juice</a></button></h3>
+    <p>le 2.20</p>
+  </div>
+
+  <div class="card">
+    <img src="food.jpg/food18.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html">Tea / Coffee</a></button></h3>
+    <p>le 1.20</p>
+  </div>
+  <div class="card">
+    <img src="food.jpg/food19.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html"></a>Tea / Coffee</button></h3>
+    <p>le 1.20</p>
+  </div>
+  <div class="card">
+    <img src="food.jpg/food20.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html"></a>Tea / Coffee</button></h3>
+    <p>le 1.20</p>
+  </div>
+  <div class="card">
+    <img src="food.jpg/food21.png">
+    <h3><button type="button" onclick="alert('congratulation your order has been placed successfully!')"><a href="FOOD_SELL.html"></a>Tea / Coffee</button></h3>
+    <p>le 1.20</p>
+  </div>
+
+</div>
+
+      <footer style="background:#333; color:white; padding:20px; text-align:center; font-family:Arial;">
+        <h3><a href="Author_Developer.html"> @YAQUB Amara K sesay</a></h3>
+        <p>&copy; 2025 All Rights Reserved</p>
+        <p><small>Note: This site is for learning and demonstration purposes.</small></p>
+        <p>A day past without learning is a day waisted </p>
+</footer>
+</body>
+</html>

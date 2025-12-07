@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL BOOKING WEBSITE</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arioal, sans-serif;
+            background: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        login-container{
+            background: white;
+            width: 350px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0.0.0.0.1);
+        }
+        login-container h2{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        input-group{
+            margin-bottom: 15px;
+        }
+        input-group input{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        btn{
+            width: 100%;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .bint:hover:hover{
+            background: #0056b3;
+        }
+         a {
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            font-size:20px ;
+        }
+        nav {
+            
+            margin: 0 35px;
+            display: flex;
+            flex-direction: row;
+
+            color: #111a21;
+            font-weight: bold;
+            gap: 2rem;
+            justify-content: flex-end;
+            align-items: center;
+     }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="Author_Developer.html">About</a> 
+        <a href="HOMEPAGE.html">home</a>
+        <a href="FOOD_SELL.html">place to buy food</a>
+        <a href="OTHERS_STUFF.html">others</a>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <div class="login-container">
+        <br>
+        <h2>login</h2>
+        <form action="">
+            <div class="input-group">
+                <label for="user name"> Username</label>
+                <input type="text" id="Username" placeholder="Enter User Name" required/>
+            </div>
+                <br>
+            <div class="input group">
+                <lable fo="password">Password</lable>
+                <input type="password" id="password" placeholder="Enter password" required/>
+            </div>
+
+            <button class="btn">Login</button>
+        </form>
+    </div>
+</body>
+</html>
